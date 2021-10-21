@@ -8,18 +8,29 @@
     tools:context=".MainActivity"
     >
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="status" />
+
     <com.skydoves.elasticviews.ElasticButton
         android:id="@+id/elasticbutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@color/black"
         android:textColor="@color/white"
         android:text="Success download"
         android:textSize="17sp"
         app:button_cornerRadius="4dp"
         app:button_duration="250"
         app:button_scale="0.87"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="40dp"
         />
 
@@ -27,7 +38,7 @@
         android:id="@+id/elasticbutton1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@color/black"
         android:textColor="@color/white"
         android:text="fail download"
         android:textSize="17sp"
