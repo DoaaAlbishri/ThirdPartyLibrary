@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/elasticbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:text="Success download"
+        android:textSize="17sp"
+        app:button_cornerRadius="4dp"
+        app:button_duration="250"
+        app:button_scale="0.87"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/elasticbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:text="fail download"
+        android:textSize="17sp"
+        app:button_cornerRadius="4dp"
+        app:button_duration="250"
+        app:button_scale="0.87" />
+
+    <is.arontibo.library.ElasticDownloadView
+        android:layout_marginTop="15dp"
+        android:id="@+id/elastic_download_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_centerInParent="true"/>
+
+</LinearLayout>
